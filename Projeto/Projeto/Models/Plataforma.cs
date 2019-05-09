@@ -5,19 +5,12 @@ using System.Web;
 
 namespace Projeto.Models
 {
-    public class Clientes
+    public class Plataforma
     {
         public int ID { get; set; }
 
-        public string NIF { get; set; }
-
         public string Nome { get; set; }
 
-        public string Telemovel { get; set; }
-
-        public string Morada { get; set; }
-
-        public int CodPostal { get; set; }
-
+        public string Imagem { get; set; }
     }
 }

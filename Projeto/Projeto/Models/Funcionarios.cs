@@ -11,8 +11,6 @@ namespace Projeto.Models
 
         public string NomeFunc { get; set; }
 
-        public string Tipo { get; set; }
-
         public string Telemovel { get; set; }
 
         public DateTime DataNasc { get; set; }

@@ -5,8 +5,12 @@ using System.Web;
 
 namespace Projeto.Models
 {
-    public class UtilizadoresAnon
+    public class Exemplares
     {
+        public int NumSerie { get; set; }
+
+        public DateTime Garantia { get; set; }
+
 
     }
 }

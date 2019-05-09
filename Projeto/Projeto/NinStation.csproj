@@ -96,10 +96,11 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Exemplares.cs" />
     <Compile Include="Models\Funcionarios.cs" />
+    <Compile Include="Models\Plataforma.cs" />
     <Compile Include="Models\Produto.cs" />
     <Compile Include="Models\Clientes.cs" />
-    <Compile Include="Models\UtilizadoresAnon.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -7,16 +7,17 @@ namespace Projeto.Models
 {
     public class Produto
     {
-        public float Preco { get; set; }
-
-        public string Tipo { get; set; }
-
         public int ID { get; set; }
+
+        public float Preco { get; set; }
 
         public string NomeProduto { get; set; }
 
         public string ImagemProd { get; set; }
 
-        public DateTime Garantia { get; set; }
+        public string Descricao { get; set; }
+
+        public int Stock { get; set; }
+
     }
 }
