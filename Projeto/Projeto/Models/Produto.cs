@@ -17,6 +17,6 @@ namespace Projeto.Models
 
         public string ImagemProd { get; set; }
 
-        public int Garantia { get; set; }
+        public DateTime Garantia { get; set; }
     }
 }
