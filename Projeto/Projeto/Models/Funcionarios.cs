@@ -13,8 +13,6 @@ namespace Projeto.Models
 
         public string Telemovel { get; set; }
 
-        public DateTime DataNasc { get; set; }
-
         public DateTime DataEntrada { get; set; }
 
         public string Morada { get; set; }
