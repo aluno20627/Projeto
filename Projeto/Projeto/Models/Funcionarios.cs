@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
@@ -9,13 +10,10 @@ namespace Projeto.Models
     {
         public int ID { get; set; }
 
+        [Required]
         public string NomeFunc { get; set; }
 
-        public string Tipo { get; set; }
-
         public string Telemovel { get; set; }
-
-        public DateTime DataNasc { get; set; }
 
         public DateTime DataEntrada { get; set; }
 
